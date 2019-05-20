@@ -1,5 +1,5 @@
 {
-  "name": "@qucikts/nestjs-log4js",
+  "name": "@quickts/nestjs-log4js",
   "version": "1.0.0",
   "description": "A quickts project",
   "main": "dist/index.js",
@@ -11,7 +11,10 @@
     "start:prod": "node dist/index.js",
     "test": "mocha -r tsconfig-paths/register -r ts-node/register --recursive -R spec test/*.ts"
   },
-  "keywords": ["quickts", "nestjs-log4js"],
+  "keywords": [
+    "quickts",
+    "nestjs-log4js"
+  ],
   "author": "quickts",
   "license": "MIT",
   "devDependencies": {
