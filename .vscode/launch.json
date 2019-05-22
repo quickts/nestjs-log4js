@@ -1,7 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [{
-            "name": "project",
+            "name": "Project",
             "type": "node",
             "request": "launch",
             "args": [
@@ -19,7 +19,7 @@
             "internalConsoleOptions": "neverOpen"
         },
         {
-            "name": "file",
+            "name": "File",
             "type": "node",
             "request": "launch",
             "args": ["${relativeFile}"],
@@ -35,7 +35,7 @@
             "internalConsoleOptions": "neverOpen"
         },
         {
-            "name": "test file(mocha)",
+            "name": "Test file(mocha)",
             "type": "node",
             "request": "launch",
             "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
