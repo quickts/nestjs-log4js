@@ -18,21 +18,21 @@
   "author": "quickts",
   "license": "MIT",
   "devDependencies": {
-    "@nestjs/common": "^6.2.2",
-    "@nestjs/core": "^6.2.2",
-    "@nestjs/platform-express": "^6.2.2",
-    "@types/mocha": "^5.2.6",
-    "@types/node": "^12.0.0",
-    "mocha": "^6.1.4",
+    "@nestjs/common": "^6.5.3",
+    "@nestjs/core": "^6.5.3",
+    "@nestjs/platform-express": "^6.5.3",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.1",
+    "mocha": "^6.2.0",
     "rimraf": "^2.6.3",
     "rxjs": "^6.5.2",
-    "ts-node": "^8.1.0",
+    "ts-node": "^8.3.0",
     "tsconfig-paths": "^3.8.0",
     "reflect-metadata": "^0.1.13",
-    "typescript": "^3.4.5"
+    "typescript": "^3.5.3"
   },
   "dependencies": {
-    "log4js": "^4.2.0"
+    "log4js": "^4.5.1"
   },
   "files": [
     "dist"
