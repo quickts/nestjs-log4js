@@ -6,7 +6,7 @@ import { createOptionProvider } from "./log4js.provider";
 @Global()
 @Module({})
 export class Log4jsModule {
-    static forRoot(options: Configuration): DynamicModule {
+    static forRoot(options?: Configuration | string): DynamicModule {
         const optionProvider = createOptionProvider(options);
         return {
             module: Log4jsModule,
