@@ -15,3 +15,15 @@ export class Log4jsModule {
         };
     }
 }
+
+@Module({})
+export class Log4jsGlobalModule {
+    static forRoot(options?: Configuration | string): DynamicModule {
+        const optionProvider = createOptionProvider(options);
+        return {
+            module: Log4jsGlobalModule,
+            providers: [Log4jsService, optionProvider],
+            exports: [Log4jsService]
+        };
+    }
+}
