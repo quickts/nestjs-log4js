@@ -3,7 +3,10 @@ import { Configuration } from "log4js";
 import { Log4jsService } from "./log4js.service";
 import { createOptionProvider } from "./log4js.provider";
 
-@Module({})
+@Module({
+    providers: [Log4jsService, createOptionProvider()],
+    exports: [Log4jsService]
+})
 export class Log4jsModule {
     static forRoot(options?: Configuration | string): DynamicModule {
         const optionProvider = createOptionProvider(options);
@@ -16,7 +19,10 @@ export class Log4jsModule {
 }
 
 @Global()
-@Module({})
+@Module({
+    providers: [Log4jsService, createOptionProvider()],
+    exports: [Log4jsService]
+})
 export class Log4jsGlobalModule {
     static forRoot(options?: Configuration | string): DynamicModule {
         const optionProvider = createOptionProvider(options);
