@@ -2,7 +2,7 @@
 
 ## Installation
 
-    $ npm install @quickts/nestjs-log4js
+    $ npm install @quickts/nestjs-log4js log4js
 
 ## Usage
 
@@ -45,7 +45,7 @@ class OtherService {
 }
 ```
 
-2.
+2.使用模块
 
 ```ts
 // file: index.ts
