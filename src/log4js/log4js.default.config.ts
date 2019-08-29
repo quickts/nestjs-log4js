@@ -7,7 +7,7 @@ export function buildDefaultConfig(level: string): Configuration {
         appenders: {
             logToErrorFile: {
                 type: "dateFile",
-                filename: join(basePath, "error"),
+                filename: join(basePath, "err/err"),
                 alwaysIncludePattern: true,
                 pattern: "yyyy-MM-dd.log",
                 daysToKeep: 14
@@ -19,7 +19,7 @@ export function buildDefaultConfig(level: string): Configuration {
             },
             appLogger: {
                 type: "dateFile",
-                filename: join(basePath, "all"),
+                filename: join(basePath, "all/all"),
                 alwaysIncludePattern: true,
                 pattern: "yyyy-MM-dd.log",
                 daysToKeep: 14
