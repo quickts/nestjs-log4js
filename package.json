@@ -20,7 +20,7 @@
   "devDependencies": {
     "@nestjs/common": "^6.5.3",
     "@nestjs/core": "^6.5.3",
-    "@nestjs/platform-express": "^6.5.3",
+    "@nestjs/platform-express": "^9.2.1",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.7.1",
     "log4js": "^4.5.1",
